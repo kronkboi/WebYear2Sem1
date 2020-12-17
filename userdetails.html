@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Dragon Ball Legends Game Info">
+  <meta name="author" content="Ben Carney_a.k.a_:Kronk">
+  <title>User Details</title>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="blog.css">
+<link rel="icon" href="logooflegends.jpg">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet"> 
+</head>
+<style>
+     body
+    {
+        font-family: 'Arial', sans-serif;
+        background-image:url(roster.jpg);
+        background-size: cover;
+        
+    }   
+</style>
+<body>
+    
+<div id="wrapper">
+<header>
+<h1>Shop</h1>
+</header>   
+</div>
+<main class="container">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link " href="index.html">Home </a>
+      <a class="nav-item nav-link" href="Gameplay%20Videos.html">Gameplay Videos</a>
+      <a class="nav-item nav-link" href="shop.html">Shop</a>
+        <a class="nav-item nav-link" href="Contact%20Me.html">Contact Me</a>
+    </div>
+  </div>
+    <div class="btn-group">
+    <button type="button" class="btn btn-primary"  id="loginlogout" href="#">Login</button>
+    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item active " href="userdetails.html">User Details<span class="sr-only">(current)</span></a>
+      <a class="dropdown-item" href="Registration%20Page.html">Registration Form</a>   
+
+    </div>
+    </div>
+  
+      
+    <div class="btn-toolbar">
+        <a class="nav-item nav-link" href="checkout.html">
+        <button type="button" class="btn btn-secondary ml-2">
+          Checkout <span class="badge badge-light" id="checkout"></span>
+        </button>
+        </a>
+    </div> 
+</nav>   
+
+    <div class="row">
+    <div class="card">
+    <div class="leftcolumn">
+        <div class="col-sm col-md-4"> 
+            <form name="userdetails" id="udetails" action="" method="get">
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="form-group">
+                        <label for="getFirstName">First name</label>
+                        <input type="text" class="form-control" id="getFirstName" name="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="getLastName">Last name</label> 
+                        <input type="text" class="form-control" id="getLastName" name="lastname" required>
+                    </div>    
+                    <div class="form-group">
+                        <label for="getDOB">Date of Birth</label> 
+                        <input type="date" class="form-control" id="getDOB" name="dob" required>
+                    </div>  
+                </fieldset>    
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="form-group">
+                        <label for="getAddress1">Address 1</label> 
+                        <input type="text" class="form-control" id="getAddress1" name="address1" required>
+                    </div>   
+                    <div class="form-group">
+                        <label for="getAddress2">Address 2</label> 
+                        <input type="text" class="form-control" id="getAddress2" name="address2" required>
+                    </div>  
+                    <div class="form-group">
+                        <label for="getAddress3">Address 3</label> 
+                        <input type="text" class="form-control" id="getAddress3" name="address2" required>
+                    </div>  
+                </fieldset>    
+                <input type='submit' class="btn btn-primary" value="Update My Details">
+            </form>
+
+
+        </div> 
+    </div>   
+    </div>   
+    </div>
+    
+</main>
+    <script src="jquery-min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script> 
+    <script src="custom.js"></script>   
+    
+</body>
+</html>
+
+
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Dragon Ball Legends Game Info">
+  <meta name="author" content="Ben Carney_a.k.a_:Kronk">
+  <title>Check Out</title>
+    <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="blog.css">
+<link rel="icon" href="logooflegends.jpg">
+<style>
+body
+    {
+background-color:#000000;
+background:cover; 
+background-image:url(roster.jpg);
+background-size: cover;
+    }   
+</style>
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet">    
+</head>
+<body>
+<main class="container">
+<div id="wrapper">
+<header>
+    <h1>Checkout</h1>
+    </header></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link " href="index.html">Home </a>
+      <a class="nav-item nav-link" href="Gameplay%20Videos.html">Gameplay Videos</a>
+      <a class="nav-item nav-link" href="shop.html">Shop</a>
+    <a class="nav-item nav-link" href="Contact%20Me.html">Contact Me</a>
+        <a class="nav-item nav-link" href=https://www.youtube.com/watch?v=dQw4w9WgXcQ></a>
+    </div>
+  </div>
+    <div class="btn-group">
+    <button type="button" class="btn btn-primary"  id="loginlogout" href="#">Login</button>
+    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+      <a class="dropdown-item" href="userdetails.html">User Details</a>
+      <a class="dropdown-item" href="Registration%20Page.html">Registration Form</a>   
+
+    </div>
+    </div>
+  
+      
+    <div class="btn-toolbar">
+        <a class="nav-item nav-link" href="checkout.html">
+        <button type="button" class="btn btn-secondary ml-2">
+          Checkout <span class="badge badge-light" id="checkout"></span>
+        </button>
+        </a>
+    </div> 
+</nav>
+
+<div class="card">
+    <div class="row">    
+        <div class="col-sm col-md-4"> 
+          <form name="paymentdetails" id="pdetails" action="" method="get">
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="form-group">
+                        <label for="getFirstName">First name</label>
+                        <input type="text" class="form-control" id="getFirstName" name="firstname" value="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="getLastName">Last name</label> 
+                        <input type="text" class="form-control" id="getLastName" name="lastname" value="surname" required>
+                    </div>    
+                    <div class="form-group">
+                        <label for="getAddress1">Addresss</label> 
+                        <input type="text" class="form-control" id="getAddress1" name="address2" value="address 1" required>
+                    </div> 
+                    <div class="form-group">
+                        <label for="getAddress2">Addresss</label> 
+                        <input type="text" class="form-control" id="getAddress2" name="address2"  value="address 2"  required>
+                    </div> 
+                        <div class="form-group">
+                        <label for="getAddress3">Addresss</label> 
+                        <input type="text" class="form-control" id="getAddress3" name="address3"  value="address 3"  required>
+                    </div> 
+                </fieldset>    
+                <fieldset>
+                    <legend>Payment Details</legend>
+                    <div class="form-group">
+                        <label for="getCardName">Card Name</label> 
+                        <input type="text" class="form-control" id="getCardName" name="cardname" value="MR FIRSTNAME SURNAME" required>
+                    </div>   
+                    <div class="form-group">
+                        <label for="getCardNumber">Card Number</label> 
+                        <input type="text" class="form-control" id="getCardNumber" name="cardnumber" value="1234 5678 9102 3456" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="getCardCVC">CVC</label> 
+                        <input type="password" class="form-control" id="getCardNumber" name="cardnumber"  required>
+                    </div>
+                </fieldset>    
+                <div class="alert alert-success d-none" id="payment-success" role="alert">
+                    Thank you for your purchase. You will receive delivery details via email. Please return to our <a href="shop.html">Shopping Page</a>.
+                </div>
+                <div class="alert alert-danger d-none" id="payment-failure" role="alert">
+                  There seems to be a problem with the card details you entered.
+                </div>                
+                
+                <input type='submit' class="btn btn-primary" id="buy-button" value="Buy Now">
+            </form>
+
+
+        </div> 
+    </div>   
+    </div>   
+
+    
+</main>
+    <script src="jquery-min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script> 
+    <script src="custom.js"></script>   
+<div class="footer">
+  <h2>Copyright© 2020</h2>
+</div>
+    
+</body>
+</html>
+
+
+

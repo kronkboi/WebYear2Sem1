@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Dragon Ball Legends Game Info">
+  <meta name="author" content="Ben Carney_a.k.a_:Kronk">
+  <title>Registration Results</title>
+  <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="blog.css">
+<link rel="icon" href="logooflegends.jpg">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet"> 
+</head>
+<style>
+     body
+    {
+        font-family: 'Arial', sans-serif;
+        background-image:url(roster.jpg);
+        background-size: cover;
+        
+    }   
+</style>  
+<body>
+    <div class="card">
+    <main class="container">
+        <h1>Show results of form in different page </h1>
+        </main></div>
+<script src="query-min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>    
+<script>
+// javascript code will only run once the DOM is ready   
+$(document).ready(function(){
+
+    var formValues = JSON.parse(localStorage.getItem('regForm'));
+    for(var i=0;i<formValues.length;i++){
+           // display the name/value pairs on screen    
+           alert('Field name is : ' + formValues[i]['name'] + ', Value is: ' + formValues[i]['value']);
+        }
+});
+</script>     
+</body>
+</html>

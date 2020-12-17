@@ -1,0 +1,35 @@
+.leftcolumn {
+  float: left;
+  width: 1000px;
+}
+
+.rightcolumn {
+  float: right;
+  width: auto;
+  padding-right: 15px;
+}
+
+.fakeimg {
+  background-color: grey;
+  box-sizing: auto;
+  width: 25%;
+}
+
+.card {
+  background-color: dimgrey;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 400px) {
+  .leftcolumn, .rightcolumn {
+    width: 50%;
+    padding: 0;
+  }
+}
